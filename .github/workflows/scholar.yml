@@ -2,16 +2,16 @@ name: Update README with Google Scholar Publications
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Every day at midnight UTC
-  workflow_dispatch:       # Allow manual trigger
+    - cron: '0 0 * * *' # every day at midnight UTC
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: Readme-Workflows/google-scholar-profile@main
+      - uses: Readme-Workflows/ReadmeScholar@main
         with:
-          scholar_id: SJrkyKIAAAAJ
-          max_articles: 5
-          readme_path: README.md
+          SCHOLAR_ID: SJrkyKIAAAAJ
+          MAX_COUNT: 5
+          FILE_PATH: README.md
