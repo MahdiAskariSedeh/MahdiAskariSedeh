@@ -5,11 +5,11 @@ I am a Mechanical Engineering graduate from the University of Tehran. My interes
 - 🧪 I’m currently learning about emerging materials and computational modeling.
 - 🧠 I’m working on research projects related to smart materials.
 - 📬 How to reach me: mahdioskarsedeh@ut.ac.ir
-
+- 
 ## 📄 Recent Publications
 
 <!-- GOOGLE_SCHOLAR:START -->
-Loading Google Scholar profile...
+Loading...
 <!-- GOOGLE_SCHOLAR:END -->
 
 Thanks for visiting my profile!
