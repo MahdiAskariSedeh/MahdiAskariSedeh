@@ -1,4 +1,4 @@
-# Hi, I'm Mahdi Askari-Sedeh 👋
+# Hi, I'm Mahdi Askari-Sedeh
 
 I am a Mechanical Engineering graduate from the University of Tehran. My interests include smart materials, continuum mechanics, constitutive modeling, and solid mechanics.
 
