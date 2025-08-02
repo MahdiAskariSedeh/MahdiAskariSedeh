@@ -8,8 +8,8 @@ I am a Mechanical Engineering graduate from the University of Tehran. My interes
 
 ## 📄 Recent Publications
 
-<!-- SCHOLAR:START -->
-*Loading latest articles...*
-<!-- SCHOLAR:END -->
+<!-- GOOGLE_SCHOLAR:START -->
+Loading Google Scholar profile...
+<!-- GOOGLE_SCHOLAR:END -->
 
 Thanks for visiting my profile!
