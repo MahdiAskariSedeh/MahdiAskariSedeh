@@ -10,13 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Update Google Scholar Section
-        uses: Readme-Workflows/Readme-Workflows@main
+      - name: GitHub README Google Scholar
+        uses: soroushchehresa/github-readme-google-scholar@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          template: "google-scholar"
-          config: |
-            SCHOLAR_ID: SJrkyKIAAAAJ
-            MAX_COUNT: 5
-            FILE_PATH: README.md
+          scholar_id: SJrkyKIAAAAJ
