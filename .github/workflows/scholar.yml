@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: schneegans/dynamic-google-scholar@v1
+      - uses: Readme-Workflows/google-scholar-profile@main
         with:
           scholar_id: SJrkyKIAAAAJ
           max_articles: 5
