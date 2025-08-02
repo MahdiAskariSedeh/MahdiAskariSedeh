@@ -2,7 +2,7 @@ name: Update README with Google Scholar Publications
 
 on:
   schedule:
-    - cron: '0 0 * * *' # every day at midnight UTC
+    - cron: '0 0 * * *'  # every day at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -10,8 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: Readme-Workflows/ReadmeScholar@main
+
+      - name: Update Google Scholar Section
+        uses: Readme-Workflows/Readme-Workflows@main
         with:
-          SCHOLAR_ID: SJrkyKIAAAAJ
-          MAX_COUNT: 5
-          FILE_PATH: README.md
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          template: "google-scholar"
+          config: |
+            SCHOLAR_ID: SJrkyKIAAAAJ
+            MAX_COUNT: 5
+            FILE_PATH: README.md
